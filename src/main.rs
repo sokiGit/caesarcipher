@@ -41,8 +41,6 @@ fn main() {
     let mut print_help: bool = false;
 
     let mut parse_state: ParseState = ParseState::Unnamed;
-    
-    dbg!(&args);
 
     for argument in args {
         match argument.as_str() {
